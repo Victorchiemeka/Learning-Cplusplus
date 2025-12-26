@@ -12,6 +12,35 @@ int main(){
     int domesticated_animals {dog_count + cat_count};
     int functional(2.9);  // ignores the number after decimal point of this
 
+
+    char letter1 {'e'};
+    char letter2 {'m'};
+
+    cout << letter1 << endl;
+    cout << letter2 << endl;
+
+    bool red_light {true};
+    bool green_light {false};
+
+    auto num {12};
+    auto num1 {13.0};
+
+    cout << num << endl;
+    cout << sizeof(num1) << endl;
+
+    if (red_light){
+        cout << "Stop!" << endl;
+    }else{
+        cout << "Go through" << endl;
+
+    }
+
+    if (green_light){
+        cout << "The light is green" << endl;
+    }else{
+        cout << "The light is not green" << endl;
+    }
+
     int value1 {10};
     int value2 {-10};
     
