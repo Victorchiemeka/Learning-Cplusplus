@@ -15,7 +15,7 @@ int main()
         vector<vector<int>> added_column(i + 1, vector<int>(1));
         for (int j = 0; j < i - 1; j++)
         {
-            added_column[i][j] = added_column[i - 1] + added_column[i]
+            added_column[i][j] = added_column[i - 1] + added_column[i];
         }
     }
 
