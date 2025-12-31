@@ -12,7 +12,7 @@ int main()
 
     while (start < end)
     {
-        int temp = *start;
+        temp = *start;
         *start = *end;
         *end = temp;
         start++;
